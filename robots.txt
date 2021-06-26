@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://franksun2013.github.io/sitemap.xml
-Host: https://franksun2013.github.io
+Sitemap: https://yihong.run/sitemap/sitemap-index.xml
+Host: https://yihong.run
