@@ -4,7 +4,7 @@ name: Publish GitHub Pages
 on:
   # Triggers the workflow on push events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ franksun ]
     paths:
       - .github/workflows/gh-pages.yml
       - package.json
@@ -67,8 +67,8 @@ jobs:
           # Build directory to deploy
           build_dir: public
           # Write the given domain name to the CNAME file
-          #fqdn: custom.domain.name # optional
+          fqdn: https://franksun2013.github.io # optional
           # Prevent Jekyll from building the site
           jekyll: false
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.RUNNING_PAGE_TOKEN }}
