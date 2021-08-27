@@ -67,7 +67,7 @@ jobs:
           # Build directory to deploy
           build_dir: public
           # Write the given domain name to the CNAME file
-          fqdn: https://franksun2013.github.io/running_page # optional
+          fqdn: https://nanjingfrank.github.io/running_page/ # optional
           # Prevent Jekyll from building the site
           jekyll: false
         env:
